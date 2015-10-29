@@ -24,6 +24,15 @@ logstash -f `pwd`/logstash.config
 
 You should see all the csv data in the console.
 
+Start kibana
+```
+kibana
+```
+
+Configure an index pattern in kibana at http://localhost.com:5601, entering "labor" in the "index name or pattern" box.
+
+## Error Recovery
+
 If you have already done an import with errors in the config you may need to
 delete the logstash db
 
