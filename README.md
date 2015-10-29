@@ -29,7 +29,7 @@ Start kibana
 kibana
 ```
 
-Configure an index pattern in kibana at http://localhost.com:5601, entering "labor" in the "index name or pattern" box.
+Configure an index pattern in kibana: navigate to http://localhost.com:5601, enter "labor" in the "index name or pattern" box, select "start_time" in the drop down menu.
 
 ## Error Recovery
 
