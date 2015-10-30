@@ -7,6 +7,8 @@ brew install kibana
 brew install elasticsearch
 ```
 
+# Index the data
+
 Download the bulk data here: 
 https://tock.18f.gov/api/timecards_bulk.csv
 
@@ -24,6 +26,8 @@ logstash -f `pwd`/logstash.config
 
 You should see all the csv data in the console.
 
+# Configure Kibana
+
 Start kibana
 ```
 kibana
@@ -33,7 +37,7 @@ Configure an index pattern in kibana: navigate to http://localhost.com:5601, ent
 
 ![Kibana Screenshot](/assets/ConfigureIndexPattern.png)
 
-## Error Recovery
+# Error Recovery
 
 If you have already done an import with errors in the config you may need to
 delete the logstash db
