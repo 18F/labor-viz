@@ -31,6 +31,8 @@ kibana
 
 Configure an index pattern in kibana: navigate to http://localhost.com:5601, enter "labor" in the "index name or pattern" box, select "start_time" in the drop down menu.
 
+![Kibana Screenshot](/assets/ConfigureIndexPattern.png)
+
 ## Error Recovery
 
 If you have already done an import with errors in the config you may need to
