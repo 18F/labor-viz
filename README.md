@@ -40,7 +40,7 @@ delete the logstash db
 rm ~/.sincedb_*
 ```
 
-to delete the elasticsearch index
+And delete the elasticsearch index
 
 ```
 curl -XDELETE 'http://localhost:9200/labor'
