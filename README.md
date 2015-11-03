@@ -37,6 +37,10 @@ Configure an index pattern in kibana: navigate to http://localhost.com:5601, ent
 
 ![Kibana Screenshot](/assets/ConfigureIndexPattern.png)
 
+# Reports
+
+* [Project Level Reporting](project-level-reporting/project.md)
+
 # Error Recovery
 
 If you have already done an import with errors in the config you may need to
